@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM TASK EXPLORER</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+</head>
+<body>
+    <main>
+        <nav>
+            <div class="nav">
+                <div class="navleft">
+                    <h3>DOM EXPLORER  [cohort-3.0]</h3>
+                </div>
+                <div class="navright">
+                    <button class="theme">theme</button>
+                </div>
+            </div>
+        </nav>
+        <section>
+            <div class="section">
+                <div class="secright">
+                    <form>
+                        <div class="mainform">
+                        <div class="form1">
+                            <h1 class="file"><i class="ri-file-list-2-line"></i>TASK MANAGEMENT</h1>
+                            <p>Add a new task and track your progress</p>
+                        <input id="input" type="text"  placeholder="Enter task title" /><i class="ri-edit-line"></i>
+                        <select id="select" name="Category">
+                            <option value="Study">Study</option>
+                            <option value="management">management</option>
+                            <option value="JavaScript">JavaScript</option>
+                        </select>
+                        <button> + Add Task</button>
+                        </div>
+                        </form>
+                        <div class="form2">
+                            <div class="form3">
+                                <span id="span1"><i id="clock" class="ri-time-line"></i>   pending:<strong id = "pending-count">0</strong></span>
+                                <span id="span2"><i id="check"  class="ri-check-line"></i>Completed: <strong id ="completed-count">0</strong> </span>
+                            </div>
+                            <button id="btn" class="clear-all" >Clear All Task</button>
+                        </div>
+                    
+                    <div class="card">
+                        <h4> <i class="ri-list-check"></i>  TASK LIST</h4>
+                    </div>
+                </div>
+                </div>
+                 <!-- <div class="secleft">
+                    <div class="event">
+                        <h3>LAB:1 EVENT PROPOGATION SANDBOX</h3>
+                        <div class="grandparent">
+                            <h3>[GRANDPARENT BOX]</h3>
+                            <div class="parent">
+                                <h3>[PARENT BOX]</h3>
+                                <div class="child">
+                                    <button>CLICK CHILD</button>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>CONSOLE OUTPUT</h3>
+                        <div class="output">
+                            <h2>> [CAPTURING]: grandparent -> parent -> child</h2>
+                            <h2>> [BUBBLING] : child -> parent -> grandparent</h2>
+                        </div>
+                    </div>
+                    
+                </div>  -->
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
